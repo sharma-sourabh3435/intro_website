@@ -1,0 +1,56 @@
+#animation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* 100% of the viewport height */
+    text-align: center;
+}
+
+#animation h1 {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+#just_for_background_color {
+    background-color: #F8F8FF;
+    color: #353935;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px; 
+    background-color: #2F4F4F;
+    color: #E5E4E2;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+}
+
+
+header h2 {
+    margin: 0; /* Removes default margin */
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    
+}
+
+header ul li {
+    margin-left: 20px; /* Space between each nav item */
+}
+
+header ul li a {
+    color: #E5E4E2; /* White color */
+    text-decoration: none; /* Removes underline */
+}
+
+* {
+    /*border: 1px solid red; */
+    box-sizing: border-box;
+}
